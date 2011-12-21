@@ -17,3 +17,9 @@ Data
 ----
 
 The data, including video, can be downloaded from:
+
+Other
+-----
+
+The strip chart fundamentals were modeled after:
+http://www.mathworks.com/matlabcentral/fileexchange/3356-strip-chart
