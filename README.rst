@@ -7,4 +7,13 @@ data alongside the video. We abandoned the effort due to the inability to time
 synchronize the sensor data with the video data, but I post this simply as
 sample code that may be useful to someone.
 
+Dependencies
+------------
+
+- Matlab
+- videoIO r531 by Gerald Dalley http://sourceforge.net/projects/videoio/
+
+Data
+----
+
 The data, including video, can be downloaded from:
