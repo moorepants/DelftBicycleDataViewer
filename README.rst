@@ -10,8 +10,10 @@ sample code that may be useful to someone.
 Dependencies
 ------------
 
-- Matlab
-- videoIO r531 by Gerald Dalley http://sourceforge.net/projects/videoio/
+- Matlab: At least version 6.5 for the videoIO dependency.
+- videoIO r531 by Gerald Dalley http://sourceforge.net/projects/videoio/. If
+  running on Windows, it is easiest to download the precompile binaries, and
+  simply add the folder to your Matlab path.
 
 Data
 ----
@@ -23,3 +25,11 @@ Other
 
 The strip chart fundamentals were modeled after:
 http://www.mathworks.com/matlabcentral/fileexchange/3356-strip-chart
+
+Usage
+-----
+
+Download the source code and the data files. Place the videos in the
+`videoFiles` directory and the sensor data in the `dataFiles` directory. Run
+the `data_viewer` m-file and the GUI will load. Select a data file from the
+`dataFiles` directory and load it with the GUI's buttons. Play the video.
