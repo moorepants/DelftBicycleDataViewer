@@ -1,3 +1,4 @@
+% This is a test gui that was written by Arend.
 function varargout = videoIOGUI(varargin)
 global vr fps frame
 % VIDEOIOGUI M-file for videoIOGUI.fig

@@ -20,6 +20,20 @@ Data
 
 The data, including video, can be downloaded from:
 
+Note that the yaw rate, lean rate and steer rate columns are for the body fixed
+angular rates about these axes. See my dissertation for details:
+http://moorepants.github.com/dissertation/delftbicycle.html#rate-gyros
+
+The rates you probably want are the ones defined in the for the benchmark
+bicycle in [Meijaard]2007]_ and they can be computed as such:
+
+yaw rate = yaw rate column
+roll rate = -roll rate column
+steer rate = steer rate colum + roll rate colum * sin(lambda) - yaw rate column * cos(lambda)
+
+Where lambda = 0.4276 for the Batavus Browser bicycle which we used in the
+experiments.
+
 Other
 -----
 
