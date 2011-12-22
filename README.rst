@@ -30,7 +30,9 @@ The rates you probably want are the ones defined in the for the benchmark
 bicycle in [Meijaard]2007]_ and they can be computed as such:
 
 yaw rate = yaw rate column
+
 roll rate = -roll rate column
+
 steer rate = steer rate colum + roll rate colum * sin(lambda) - yaw rate column * cos(lambda)
 
 Where lambda = 0.4276 for the Batavus Browser bicycle which we used in the
