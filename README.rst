@@ -20,7 +20,7 @@ Data
 
 The data, including video, can be downloaded from:
 
-http://mae.ucdavis.edu/~biosport/DelftBicycleDataViewerAndData.zip (1 GB)
+http://dx.doi.org/10.5281/zenodo.18862 (1 GB)
 
 Note that the yaw rate, lean rate and steer rate columns are for the body fixed
 angular rates about these axes. See my dissertation for details:
